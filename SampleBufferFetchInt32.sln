@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleBufferFetchInt32", "SampleBufferFetchInt32\SampleBufferFetchInt32.csproj", "{C950B97E-8210-42E5-8DD7-5F76D5E470BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C950B97E-8210-42E5-8DD7-5F76D5E470BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C950B97E-8210-42E5-8DD7-5F76D5E470BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C950B97E-8210-42E5-8DD7-5F76D5E470BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C950B97E-8210-42E5-8DD7-5F76D5E470BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94F80531-2810-4D7C-B5A0-BD804B2CE2DC}
+	EndGlobalSection
+EndGlobal

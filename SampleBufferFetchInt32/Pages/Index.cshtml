@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <form method="post" style="margin-top:20px">
+
+        <div style="margin-top:20px">
+            @Html.Raw(Model.Context)
+        </div>
+        <div class="text-center"  style="margin-top:20px">
+            <button type="submit" class="btn bg-danger" style="color:white" onclick="Submit()" asp-page-handler="Submit">Parallel Fetch And Check</button>
+        </div>
+    </form>
+
+
+    <p  style="margin-top:20px">Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
